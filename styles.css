@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.camera-container {
+  position: relative;
+}
+
+.camera {
+  border-radius: 5rem;
+}
+
+#camera-feed {
+  width: 100%;
+  max-width: 640px;
+  border: 2px solid #ddd;
+}
+
+#capture-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
