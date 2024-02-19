@@ -94,8 +94,152 @@ main h1 {
   color: #fff;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 1000px) {
+  main h1 {
+    font-size: 3rem;
+  }
+
+  canvas {
+    padding: 0 17rem;
+    margin-top: 4rem;
+    border-radius: 15%;
+    box-sizing: border-box;
+  }
+
   .camera-container {
-    max-width: 951px;
+    margin-left: -3rem;
+  }
+}
+@media (max-width: 900px) {
+  main h1 {
+    font-size: 6rem;
+  }
+  .camera-container {
+    margin-left: -4rem;
+  }
+}
+
+@media (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+  .camera-container {
+    margin-left: -6rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .camera-container {
+    margin-left: -7rem;
+  }
+}
+
+@media (max-width: 780px) {
+  main {
+    padding: 5rem;
+  }
+  main h1 {
+    margin-top: 4rem;
+    text-align: left;
+  }
+  .camera {
+    margin: 0;
+    width: 100%;
+  }
+  .camera-container {
+    max-width: 500px;
+    width: 100%;
+    margin-left: 6rem;
+  }
+
+  .snapButton {
+    left: 15rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .camera-container {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .camera-container {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 560px) {
+  main h1 {
+    font-size: 2.2rem;
+  }
+  .camera {
+    width: 90%;
+  }
+
+  .snapButton {
+    left: 13rem;
+  }
+
+  canvas {
+    padding: 0 9rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .camera {
+    width: 80%;
+  }
+
+  .snapButton {
+    left: 12rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .camera {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .camera {
+    margin-left: 0.3rem;
+  }
+
+  .snapButton {
+    left: 10rem;
+  }
+
+  canvas {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .camera {
+    width: 70%;
+  }
+
+  .snapButton {
+    bottom: -7rem;
+    left: 6rem;
+  }
+
+  canvas {
+    margin-top: 10rem;
+    margin-left: -2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .snapButton {
+    bottom: -7rem;
+    left: 6rem;
+  }
+
+  canvas {
+    margin-top: 10rem;
+    margin-left: -2rem;
   }
 }
